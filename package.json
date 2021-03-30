@@ -13,7 +13,7 @@
   "dependencies": {
     "bourbon": "latest",
     "compression": "^1.6.0",
-    "connect-redirecthost": "^2.0.0",
+    "connect-redirecthost": "^3.0.0",
     "ejs": "^2.3.4",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
@@ -27,7 +27,7 @@
     "node-sass": "latest",
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
-    "underscore": "^1.8.3",
+    "underscore": "^1.12.1",
     "walk": "^2.3.9"
   }
 }
