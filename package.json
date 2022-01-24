@@ -21,7 +21,7 @@
     "grunt-cli": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-express-server": "latest",
-    "jshint": "latest",
+    "jshint": "2.13.4",
     "load-grunt-tasks": "latest",
     "morgan": "^1.6.1",
     "node-sass": "latest",
