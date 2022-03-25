@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node server.js",
     "build": "script/build",
-    "heroku-postbuild": "script/build"
+    "heroku-postbuild": "script/build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "12.x"
@@ -28,6 +30,8 @@
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
     "underscore": "^1.8.3",
-    "walk": "^2.3.9"
-  }
+    "walk": "^2.3.9",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
