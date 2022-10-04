@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node server.js",
     "build": "script/build",
-    "heroku-postbuild": "script/build"
+    "heroku-postbuild": "script/build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "12.x"
@@ -13,21 +15,23 @@
   "dependencies": {
     "bourbon": "latest",
     "compression": "^1.6.0",
-    "connect-redirecthost": "^2.0.0",
-    "ejs": "^2.3.4",
+    "connect-redirecthost": "^3.0.0",
+    "ejs": "^3.1.7",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
-    "grunt": "latest",
+    "grunt": "1.5.3",
     "grunt-cli": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-express-server": "latest",
-    "jshint": "latest",
+    "jshint": "2.13.4",
     "load-grunt-tasks": "latest",
     "morgan": "^1.6.1",
-    "node-sass": "latest",
+    "node-sass": "7.0.2",
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
-    "underscore": "^1.8.3",
-    "walk": "^2.3.9"
-  }
+    "underscore": "^1.12.1",
+    "walk": "^2.3.9",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
