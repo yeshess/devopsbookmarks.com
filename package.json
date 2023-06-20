@@ -24,7 +24,7 @@
     "jshint": "latest",
     "load-grunt-tasks": "latest",
     "morgan": "^1.6.1",
-    "node-sass": "latest",
+    "node-sass": "6.0.1",
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
     "underscore": "^1.8.3",
