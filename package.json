@@ -18,7 +18,7 @@
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
     "grunt": "latest",
-    "grunt-cli": "latest",
+    "grunt-cli": "1.4.0",
     "grunt-contrib-watch": "latest",
     "grunt-express-server": "latest",
     "jshint": "latest",
