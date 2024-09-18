@@ -16,7 +16,7 @@
     "connect-redirecthost": "^2.0.0",
     "ejs": "^2.3.4",
     "errorhandler": "^1.4.2",
-    "express": "^4.13.3",
+    "express": "^4.20.0",
     "grunt": "latest",
     "grunt-cli": "latest",
     "grunt-contrib-watch": "latest",
